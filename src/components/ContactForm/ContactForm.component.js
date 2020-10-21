@@ -10,7 +10,7 @@ const Form = styled.form`
 Form.Input = styled.input`
   position: absolute;
   right: 10px;
-  width: 320px;
+  width: 300px;
 `;
 Form.Button = styled.button`
   width: 350px;
