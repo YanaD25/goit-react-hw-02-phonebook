@@ -15,19 +15,19 @@ export default class App extends Component {
     ],
     filter: "",
   };
-  componentDidMount(){
-    const persistedContacts  = localStorage.getItem('contacts');
+  // componentDidMount(){
+  //   const persistedContacts  = localStorage.getItem('contacts');
 
-    if(persistedContacts){
-      this.setState({contacts: JSON.parse(persistedContacts)})
-    }
-  }
+  //   if(persistedContacts){
+  //     this.setState({contacts: JSON.parse(persistedContacts)})
+  //   }
+  // }
 
-  componentDidUpdate(prevProps, prevState){
-    if (prevState.contacts !== this.state.contacts) {
-      localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
-    }
-  }
+  // componentDidUpdate(prevProps, prevState){
+  //   if (prevState.contacts !== this.state.contacts) {
+  //     localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
+  //   }
+  // }
 
 
 
